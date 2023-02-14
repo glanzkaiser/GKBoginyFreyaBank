@@ -35,4 +35,4 @@ julia> notebook()
 
 # Ideas
 
-1. Create C++ codes (scrape, or read form csv then plot) that can give same output like this Jupyter Notebook, but with higher performance.
+1. Create C++ codes (scrape, or read from csv then plot) that can give same output like this Jupyter Notebook, but with higher performance.
