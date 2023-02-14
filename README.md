@@ -1,4 +1,17 @@
 # GKBoginyFreyaBank
+
+```
+Meski waktu datang dan berlalu sampai kau tiada bertahan
+Semua takkan mampu mengubahku
+Hanyalah kau yang ada di relungku
+Hanyalah dirimu mampu membuatku jatuh dan mencinta
+Kau bukan hanya sekedar indah
+Kau takkan terganti
+
+- From Glanz to Freya (Kahitna - Takkan Terganti song)
+- From Freya to Glanz (I make you listen to it first -Freya)
+```
+
 A place to put codes that can help us to make decision on which to invest, where to invest. If I have USD 10,000 now and want to make USD 100,000 under 1 year perhaps stocks market is the best place, but which one? Since bonds is safe but the yield is not as high as stocks. 
 
 #### In March 2019, GGRM from IDX / JKSE falls from IDR 90,000 to IDR 17,000 in January 2023. Is IDR 17,000 still overprice? We can see that the highest price is IDR 90,000. When will it hit the bottom? Will it fall again? Check the annual report and calculate the margin of safety, the book value. Use the Jupyter Notebook here to help you if you want it, or just use your intuition.
