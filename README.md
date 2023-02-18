@@ -18,6 +18,13 @@ A place to put codes that can help us to make decision on which to invest, where
 
 # How to Setup
 
+We have provided Jupyter Notebook along with its pdf as well for:
+
+1. Julia Kernel version 1.7.3
+2. Python Kernel version 3.9.13
+
+Follow these steps:
+
 1. Create an empty folder name it `GKBoginyFreyaBank`
 
 2. Open terminal at the directory `GKBoginyFreyaBank` and type
@@ -27,12 +34,29 @@ julia --project="."
 
 julia> using IJulia
 julia> notebook()
+
+(if you need to add packages:)
+julia> ]
+
+(GKBoginyFreyaBank) pkg> add DataFrames CSV Dates
 ```
 
-3. Create a new notebook with Python3 kernel (why open it with Julia? Old habit die hard... I still use it for Lasthrim Projection writing anyway. Python that I use is from Conda inside Julia, so Julia is like the root here. While Python is the branch of the tree.)
+3. Create a new notebook with Julia or Python3 kernel (why open it with Julia? Old habit die hard... I still use it for Lasthrim Projection writing anyway. Python that I use is from Conda inside Julia, so Julia is like the root here. While Python is the branch of the tree.)
 
-4. You can copy the notebook I uploaded here. It is for 2023 GKBoginyFreya Bank report. Will be updated.
+4. You can copy the notebook I uploaded here. It is for 2023 GKBoginyFreya Bank report. Will be updated for each Python and Julia version, when I learn new methods or have new ideas from a lot of sources.
 
 # Ideas
 
 1. Create C++ codes (scrape, or read from csv then plot) that can give same output like this Jupyter Notebook, but with higher performance.
+
+# Sources
+
+1. Julia Discourse
+
+2. StackOverFlow
+
+3. Graham, Benjamin. The Intelligent Investor 4th Edition
+
+4. investing.com
+
+5. Yahoo Finance
