@@ -45,6 +45,43 @@ julia> ]
 
 4. You can copy the notebook I uploaded here. It is for 2023 GKBoginyFreya Bank report. Will be updated for each Python and Julia version, when I learn new methods or have new ideas from a lot of sources.
 
+| Julia Notebook | Python Notebook |
+| ------------- | ------------- | 
+| <img src="https://github.com/glanzkaiser/GKBoginyFreyaBank/blob/main/images/GGRMchart.png" width="83%"> | <img src="https://github.com/glanzkaiser/GKBoginyFreyaBank/blob/main/images/USCanadaindexes.png" width="83%"> | 
+| <a href="https://github.com/glanzkaiser/GKBoginyFreyaBank/blob/main/2023/GKBoginyFreyaBank-Julia.ipynb">Julia</a> | <a href="https://github.com/glanzkaiser/GKBoginyFreyaBank/blob/main/2023/GKBoginyFreyaBank-Python.ipynb">Python</a>  |
+
+# Example: Julia Code
+
+This is a code that can be run in Julia REPL through terminal, without Jupyter Notebook:
+
+You need to download the BVIC historical data from investing.com, it is a monthly data, with date ascending from top is the oldest date.
+
+```
+using CSV, Dates, DataFrames, Plots, Plots.PlotMeasures, RollingFunctions
+
+filebvic = "./csv/IDX-Stocks/BVIC Historical Data.csv"
+
+dfbvic = CSV.read(filebvic, DataFrame)
+
+dfbvic[!,"Change %"] .= parse.(Float64, replace.(dfbvic[!,"Change %"], "%" => ""))
+
+dfbvic.Dates = Date.(dfbvic.Date, "mm/dd/yyyy")
+tick_years = Date.(unique(Dates.year.(dfbvic.Dates)))
+DateTick = Dates.format.(tick_years, "yy")
+xlimsbvic = extrema([tick_years; dfbvic.Dates])
+
+plot(dfbvic.Dates, dfbvic.Price, title="",
+    xticks=(tick_years,DateTick), xlims=xlimsbvic,
+    label="Bank Victoria (Price)", xlabel="", ylabel="")
+
+# Set Book Value per Share
+x = [Date("01/12/2018", "d/m/y"), Date("01/12/2019", "d/m/y"), Date("01/12/2020", "d/m/y"), Date("01/12/2021", "d/m/y")];
+y = [267, 284, 252, 318];
+plot!(x,y, label="Book Value per Share")
+```
+
+![Julia](https://github.com/glanzkaiser/GKBoginyFreyaBank/blob/main/images/BVIC%20book%20value.png)
+
 # Ideas
 
 1. Create C++ codes (scrape, or read from csv then plot) that can give same output like this Jupyter Notebook, but with higher performance.
