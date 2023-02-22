@@ -86,6 +86,16 @@ plot!(x,y, label="Book Value per Share")
 
 1. Create C++ codes (scrape, or read from csv then plot) that can give same output like this Jupyter Notebook, but with higher performance.
 
+# Push Update from Local / Computer to Github
+
+```
+git add .
+git commit -m "tidying up"
+git branch -M main
+git remote add origin https://github.com/glanzkaiser/GKBoginyFreyaBank.git
+git push -u origin main
+```
+
 # Sources
 
 1. Julia Discourse
