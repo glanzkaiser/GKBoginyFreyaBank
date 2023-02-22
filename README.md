@@ -96,6 +96,8 @@ git remote add origin https://github.com/glanzkaiser/GKBoginyFreyaBank.git
 git push -u origin main
 ```
 
+Lucrif was right, no she is right, you are a copycat Goddess. From OS stolen, Lucrif OS becomes GFreya OS, and this, Glanz wouldn't know this even if you direct or teach her everything if it is not for Moummenths as the starter -Mischkra
+
 # Sources
 
 1. Julia Discourse
