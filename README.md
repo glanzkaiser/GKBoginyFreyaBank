@@ -90,6 +90,25 @@ plot!(x,y, label="Book Value per Share")
 
 ![Julia](https://github.com/glanzkaiser/GKBoginyFreyaBank/blob/main/images/BVIC%20book%20value.png)
 
+# Nemiel
+
+A PHP based code to scrape IDX stocks from Indopremier and show them in bootstrap sortable table, it can be run on localhost.
+
+Perhaps it can't be used anymore since Indopremier might have changed their own security and codes. But, it still can be used to learn.
+
+![Freya](https://github.com/glanzkaiser/GKBoginyFreyaBank/blob/main/images/pdf.png)
+
+![Freya](https://github.com/glanzkaiser/GKBoginyFreyaBank/blob/main/images/Nemiel1.png)
+
+```
+Luc from Suikoden III is my best friend, and I am the Silmeria if Sasarai is Alicia.
+ 
+That's complicated to ordinary person, but explains that it is connected between their realms and ours.
+
+I will have a wonderful happiest marriage life with love like Luc and Sarah, Shiva and Parvati, and beyond..
+-Glanz
+
+```
 # Ideas
 
 1. Create C++ codes (scrape, or read from csv then plot) that can give same output like this Jupyter Notebook, but with higher performance.
