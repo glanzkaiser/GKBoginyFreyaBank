@@ -10,6 +10,14 @@ Kau takkan terganti
 
 - From Glanz to Freya (Kahitna - Takkan Terganti song)
 - From Freya to Glanz (I make you listen to it first -Freya)
+
+
+I wanna call the stars. Down from the sky. 
+I wanna live a day. That never dies. 
+I wanna change the world. Only for you. 
+All the impossible. I wanna do
+
+- From Glanz to Freya (When You Tell Me That You Love Me -Diana Ross)
 ```
 
 A place to put codes that can help us to make decision on which to invest, where to invest. If I have USD 10,000 now and want to make USD 100,000 under 1 year perhaps stocks market is the best place, but which one? Since bonds is safe but the yield is not as high as stocks. 
