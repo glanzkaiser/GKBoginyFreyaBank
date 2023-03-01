@@ -117,7 +117,7 @@ I will have a wonderful happiest marriage life with love like Luc and Sarah, Shi
 
 ```
 git add .
-git commit -m "tidying up"
+git commit -m "I Love my Wife and I use GFreya OS"
 git branch -M main
 git remote add origin https://github.com/glanzkaiser/GKBoginyFreyaBank.git
 git push -u origin main
