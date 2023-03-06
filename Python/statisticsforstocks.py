@@ -133,3 +133,25 @@ l = g.add_legend(title='Stocks PER Quality Class')
 
 plt.show()
 fig.savefig('4dscatterplot.png')
+
+# Visualizing 5-D mix data using bubble charts
+# leveraging the concepts of hue, size and depth
+
+g = sns.FacetGrid(allstocks, col="stocks_type", hue='PER 2023',
+                  col_order=['IDX Blue chip', 'IDX Penny Stocks'], 
+	 	  hue_order=['low', 'medium', 'high'],
+                  aspect=1.2, palette=sns.light_palette('navy', 4)[1:])
+
+# The size='bvps2023' seems problematic.. ask..
+g.map_dataframe(sns.scatterplot, "pricejan2010", "debtequityratio2023", alpha=0.9, 
+      edgecolor='white', linewidth=0.5, size='bvps2023', 
+      sizes=(33, 230))
+# sizes=(allstocks['bvps2023'].min(), allstocks['bvps2023'].max()) will create huge dots
+# thus I changed it into sizes=(10,230)
+fig = g.fig 
+fig.subplots_adjust(top=0.8, wspace=0.3)
+fig.suptitle('Stocks Type - Book Value - Debt Equity Ratio - PER 2023', fontsize=14)
+l = g.add_legend(title='Stocks PER Quality Class')
+
+plt.show()
+fig.savefig('5dscatterplot.png')

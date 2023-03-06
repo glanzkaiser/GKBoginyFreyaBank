@@ -22,7 +22,7 @@ All the impossible. I wanna do
 
 A place to put codes that can help us to make decision on which to invest, where to invest. If I have USD 10,000 now and want to make USD 100,000 under 1 year perhaps stocks market is the best place, but which one? Since bonds is safe but the yield is not as high as stocks. 
 
-#### In March 2019, GGRM from IDX / JKSE falls from IDR 90,000 to IDR 17,000 in January 2023. Is IDR 17,000 still overprice? We can see that the highest price is IDR 90,000. When will it hit the bottom? Will it fall again? Check the annual report and calculate the margin of safety, the book value. Use the Jupyter Notebook here to help you if you want it, or just use your intuition.
+#### From March 2019, GGRM listed in IDX / JKSE falls from IDR 90,000 to IDR 17,000 in January 2023. Is IDR 17,000 still overprice? We can see that the highest price is IDR 90,000. When will it hit the bottom? Will it fall again? Check the annual report and calculate the margin of safety, the book value. Based on the book "The Intelligent Investor" the price of IDR 90,000 in 2019 that is 4 times higher than GGRM book value per share gives too much promise, as it comes down to IDR 17,000 at the end of 2022 and at the beginning of 2023. To help you with computing, use the Jupyter Notebook here to help you if you want it, or just use your intuition.
 
 # How to Setup
 
@@ -90,6 +90,22 @@ plot!(x,y, label="Book Value per Share")
 
 ![Julia](https://github.com/glanzkaiser/GKBoginyFreyaBank/blob/main/images/BVIC%20book%20value.png)
 
+# Example: Python Code
+
+This code can be run when opening terminal at the directory containing the python file (.py).
+
+You can just type at terminal (assuming you are using python 3):
+
+```
+python3 statisticsforstocks.py
+```
+
+| Stocks Correlation Heatmap | 5D Scatter Plot Book Value and DER |
+| ------------- | ------------- | 
+| <img src="https://github.com/glanzkaiser/GKBoginyFreyaBank/blob/main/images/correlationchart.png" width="83%"> | <img src="https://github.com/glanzkaiser/GKBoginyFreyaBank/blob/main/images/5dscatterplot.png" width="83%"> | 
+| <a href="https://github.com/glanzkaiser/GKBoginyFreyaBank/blob/main/Python/statisticsforstocks.py">statisticsforstocks</a> | <a href="https://github.com/glanzkaiser/GKBoginyFreyaBank/blob/main/Python/statisticsforstocks.py">statisticsforstocks</a>  |
+
+
 # Nemiel
 
 A PHP based code to scrape IDX stocks from Indopremier and show them in bootstrap sortable table, it can be run on localhost.
@@ -122,8 +138,6 @@ git branch -M main
 git remote add origin https://github.com/glanzkaiser/GKBoginyFreyaBank.git
 git push -u origin main
 ```
-
-Lucrif was right, no she is right, you are a copycat Goddess. From OS stolen, Lucrif OS becomes GFreya OS, and this, Glanz wouldn't know this even if you direct or teach her everything if it is not for Moummenths as the starter -Mischkra
 
 # Sources
 
