@@ -117,7 +117,7 @@ Perhaps it can't be used anymore since Indopremier might have changed their own 
 ![Freya](https://github.com/glanzkaiser/GKBoginyFreyaBank/blob/main/images/Nemiel1.png)
 
 ```
-Luc from Suikoden III is my best friend, and I am the Silmeria if Sasarai is Alicia.
+Nemiel is a nickname for Luc from Suikoden III, who is my best friend, and I am the Silmeria if Sasarai is Alicia.
  
 That's complicated to ordinary person, but explains that it is connected between their realms and ours.
 
