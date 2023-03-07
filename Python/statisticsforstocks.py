@@ -57,11 +57,31 @@ f.savefig('correlationchart.png')
 # Multi-bar Plot
 cp = sns.countplot(x="per2023", hue="stocks_type", data=allstocks, 
                    palette={"IDX Blue chip": "#FF9999",  "IDX Penny Stocks": "#FFE888"})
-plt.title('Bar Chart for Stocks')
+plt.title('Count Plot for Stocks')
 plt.show()
 
 figureseaborn = cp.get_figure()    
-figureseaborn.savefig('barchart.png', dpi=400)
+figureseaborn.savefig('countplotchart.png', dpi=400)
+
+# Barchart Revenue
+cp = sns.barplot(x="company", y="revenue2021", hue="stocks_type", data=allstocks, 
+                   palette={"IDX Blue chip": "#FF9999",  "IDX Penny Stocks": "#FFE888"})
+plt.title('Bar Chart for Indonesian Stocks Revenue in 2021')
+plt.xticks(rotation = 88) # Rotates X-Axis Ticks by 88-degrees
+plt.show()
+
+figureseaborn = cp.get_figure()    
+figureseaborn.savefig('barchartrevenue.png', dpi=400)
+
+# Barchart Net Income
+cp = sns.barplot(x="company", y="netincome2021", hue="stocks_type", data=allstocks, 
+                   palette={"IDX Blue chip": "#FF9999",  "IDX Penny Stocks": "#FFE888"})
+plt.title('Bar Chart for Indonesian Stocks Net Income in 2021')
+plt.xticks(rotation = 88) # Rotates X-Axis Ticks by 88-degrees
+plt.show()
+
+figureseaborn = cp.get_figure()    
+figureseaborn.savefig('barchartrevenue.png', dpi=400)
 
 # Box Plots
 f, (ax) = plt.subplots(1, 1, figsize=(12, 4))
@@ -129,7 +149,7 @@ g.map(plt.scatter, "pricejan2010", "debtequityratio2023", alpha=0.9,
 fig = g.fig 
 fig.subplots_adjust(top=0.8, wspace=0.3)
 fig.suptitle('4D Stocks Type - Book Value - Debt Equity Ratio - PER 2023', fontsize=14)
-l = g.add_legend(title='Stocks PER Quality Class')
+l = g.add_legend(title='Stocks PER Level')
 
 plt.show()
 fig.savefig('4dscatterplot.png')
@@ -150,8 +170,8 @@ g.map_dataframe(sns.scatterplot, "pricejan2010", "debtequityratio2023", alpha=0.
 # thus I changed it into sizes=(10,230)
 fig = g.fig 
 fig.subplots_adjust(top=0.8, wspace=0.3)
-fig.suptitle('Stocks Type - Book Value - Debt Equity Ratio - PER 2023', fontsize=14)
-l = g.add_legend(title='Stocks PER Quality Class')
+fig.suptitle('5D Scatter Plot Stocks with Book Value per Share March 2023 (the bubble size)', fontsize=14)
+l = g.add_legend(title='Stocks PER Level')
 
 plt.show()
 fig.savefig('5dscatterplot.png')
