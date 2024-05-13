@@ -11,7 +11,7 @@ The year 2022 when we first wrote it, I was in L'Aquila, Italy, we include sever
 After 2022, we write again in 2023, and it is shorter only 37 pages. We still looking for a better template. Read more here:
 <a href="https://drive.google.com/file/d/1AtGINuV6VaybRIjHvIAQCGxHwOut4gvF/view?usp=sharing">2023</a>
 
-In 2024, we write it again for the third time, and it become 73 pages. All data here is realistic and real, unlike in 2022 that still have some delusional investment of USD 1 billion from Zalsvik, here I disclose my real amount of money in stocks.
+In 2024, we write it again for the third time, and it becomes 73 pages. All data here is realistic and real, unlike in 2022 that still have some delusional investment of USD 1 billion from Zalsvik, here I disclose my real amount of money in stocks.
 By writing this, after 3 years rigorously keep writing like this, it is like a diary on investing, since it is not a playground or only playing around, I make my living from stocks too, still withdraw money from stocks to pay for bills so in hope to be a better investor, I write this and learn more when read again what I have written with Freya here.
 
 Read more here:
